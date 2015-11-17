@@ -1,0 +1,42 @@
+<html>
+<head>
+	
+<title>Target Options by Matias Tofful 2015</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="jquery.targetOptions.js"></script>
+
+</head>
+
+<body style="text-align: center;padding: 20px;">
+	
+<h1>Zip code Required</h1>
+
+<input style="padding:10px" type="text" placeholder="Enter Zip code"/> 
+
+<br><br>
+
+You can <a href="http://www.unitedstateszipcodes.org/" target="_options">Find your Zip code</a> here.
+
+<br><br>
+
+<a href="http://quebolu.com" target="_options">Test another link</a>
+	
+<script>
+$(document).ready(function(){
+
+	$('a').targetOptions({
+		title: 'Open link in',
+		blank: {
+			text:'A new window'
+		},
+		self: {
+			text: 'This Window'
+		}
+	});
+	
+});	
+</script>	
+	
+</body>
+</html>
