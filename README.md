@@ -1,7 +1,7 @@
 TargetOptions
 ===========
 
-#### Expand the HTML Target attribute and give you a new option called `_options`.
+#### Expand the HTML Target attribute and gives you a new option called `_options`.
 
 Sometime, users are filling out long forms or reading a long website with lot of links and sometimes they don't want to click on that links because they think they will loose the actual page they are reading or filling out, so, why don't give them the possibility to choose between open the link in a new tab, in the same window or in an iframe into the same page? With a single click or tap.
 
