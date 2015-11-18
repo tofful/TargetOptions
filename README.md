@@ -9,6 +9,9 @@ Sometime, users are filling out long forms or reading a long website with lot of
 
 See it in action: http://tofful.com/plugins/targetOptions/
 
+![targetOptions Logo](http://tofful.com/plugins/targetOptions/targetOptions-screenshot.png "targetOptions")
+
+
 ## Installation
 
 Download and include `jquery.targetOptions.js` in your document after including jQuery.
